@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray
+}
+
+#comment {
+    display:none;
+    text-align: center
+}
+
+#chatbox {
+    display:none;
+}
+#title {
+    width: 100vw;
+    color: white;
+    margin-top: 10vh;
+    position: absolute;
+    text-align: center
+}
+
+#user {
+    margin-top: 72vh;
+    position: absolute;
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
+    height: 10vh;
+    font-size: 2vw;
+}
+#comment{
+    margin-top: 72vh;
+    position: absolute;
+    width: 50vw;
+    margin-left: 25vw;
+    height: 10vh;
+    font-size: 2vw;
+}
+#chatcontainer {
+    margin-top: 20vh;
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    margin-left: 25vw;
+    background-color: rgb(240, 248, 255);
+}
+  
+
+#chatbox {
+    width:49vw;
+    height: 38.5vh;
+    position: absolute;
+    display: inline-block;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+h2 {
+    text-align: center;
+    color:white;
+    background-color: slateblue;
+    padding-top: 2.5vh;
+    height: 7vh;
+    z-index: 30;
+}
+
+#box {
+    color: white;
+    position: relative
+}
+
+
+.tom {
+    float: left;
+    width:250px;
+    background-color: antiquewhite;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 10px;
+
+}
+
+.about{
+    float: right;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.portfolio-link {
+    float: right;
+    margin-right:2%;
+    margin-left:2%;
+    padding-top: 25px;
+    padding-bottom: 5px;  
+}
+
+.contact-link {
+    float: right;
+    padding-top: 25px;
+    padding-bottom: 5px;  
+}
+
+header {
+    position: fixed;
+    bottom: 100;
+    width:100%;
+    padding-top: 10px;
+    margin: 0;
+    z-index: 9;
+    background-color:#ADD9E6;
+}
+
+.container {
+    width:93%;
+    margin-left: 3%;
+    position: relative;
+}
+
+#name {
+    color: slategray;
+}
+
+.bordered {
+    border: 3px sol slategray;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+a {
+    color: slategray;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 980px) {
+
+    .container {
+    width:100vw;
+    margin :0;
+    left: 0;
+    }
+
+    .tom {
+        margin-left:5%;
+    }
+
+    .about {
+        margin-right: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .tom {
+        float:none;
+        width: 100%;
+        text-align: center;
+        background-color:#ADD9E6;
+        padding-top:0;
+        margin-top:0;
+        margin-left:0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about {
+        float:left;
+        text-align: center;
+        margin-left: 17%;
+        width: 18%;
+        margin-right: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .portfolio-link {
+        float:left;
+        text-align: center;
+        margin-left:6%;
+        width: 18%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .contact-link {
+        float:left;
+        text-align: center;
+        margin-left: 6%;
+        width: 18%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    header {
+        padding:0;
+        background-color: antiquewhite;
+        border-bottom: 1px gray solid;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    header {
+        position: absolute;
+        padding:0;
+        margin: 0;
+        background-color: antiquewhite;
+        border-bottom: 1px gray solid;
+        width:100%
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .tom {
+        float:none;
+        width: 100%;
+        text-align: center;
+        background-color:#ADD9E6;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin-top:0;
+        margin-left:0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .about {
+        float:left;
+        text-align: center;
+        margin-left: 17%;
+        width: 18%;
+        margin-right: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .portfolio-link {
+        float:left;
+        text-align: center;
+        margin-left:6%;
+        width: 18%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .contact-link {
+        float:left;
+        text-align: center;
+        margin-left: 6%;
+        width: 18%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+  
+}
